@@ -1,0 +1,288 @@
+┌──(d34th㉿Admin-PC)-[/mnt/d/tools/random_dataset]
+└─$ for i in $(seq -w 1 10); do
+  for alg in quick heap merge std; do
+    echo "=== Running $alg on sequence_${i}.txt ==="
+    time ./sort "$alg" "sequence_${i}.txt" "out_${alg}_${i}.txt"
+    sleep 5
+  done
+done
+=== Running quick on sequence_01.txt ===
+Da doc 1000000 so tu sequence_01.txt
+Da ghi ket qua vao out_quick_01.txt
+
+real    0m2.808s
+user    0m0.985s
+sys     0m0.269s
+=== Running heap on sequence_01.txt ===
+Da doc 1000000 so tu sequence_01.txt
+Da ghi ket qua vao out_heap_01.txt
+
+real    0m2.894s
+user    0m1.120s
+sys     0m0.278s
+=== Running merge on sequence_01.txt ===
+Da doc 1000000 so tu sequence_01.txt
+Da ghi ket qua vao out_merge_01.txt
+
+real    0m3.152s
+user    0m1.002s
+sys     0m0.360s
+=== Running std on sequence_01.txt ===
+Da doc 1000000 so tu sequence_01.txt
+Da ghi ket qua vao out_std_01.txt
+
+real    0m5.483s
+user    0m1.478s
+sys     0m0.446s
+=== Running quick on sequence_02.txt ===
+Da doc 1000000 so tu sequence_02.txt
+Da ghi ket qua vao out_quick_02.txt
+
+real    0m4.304s
+user    0m1.394s
+sys     0m0.384s
+=== Running heap on sequence_02.txt ===
+Da doc 1000000 so tu sequence_02.txt
+Da ghi ket qua vao out_heap_02.txt
+
+real    0m5.399s
+user    0m1.750s
+sys     0m0.472s
+=== Running merge on sequence_02.txt ===
+Da doc 1000000 so tu sequence_02.txt
+Da ghi ket qua vao out_merge_02.txt
+
+real    0m6.800s
+user    0m1.492s
+sys     0m0.488s
+=== Running std on sequence_02.txt ===
+Da doc 1000000 so tu sequence_02.txt
+Da ghi ket qua vao out_std_02.txt
+
+real    0m5.124s
+user    0m1.229s
+sys     0m0.497s
+=== Running quick on sequence_03.txt ===
+Da doc 1000000 so tu sequence_03.txt
+Da ghi ket qua vao out_quick_03.txt
+
+real    0m5.051s
+user    0m1.404s
+sys     0m0.405s
+=== Running heap on sequence_03.txt ===
+Da doc 1000000 so tu sequence_03.txt
+Da ghi ket qua vao out_heap_03.txt
+
+real    0m10.401s
+user    0m3.061s
+sys     0m0.662s
+=== Running merge on sequence_03.txt ===
+Da doc 1000000 so tu sequence_03.txt
+Da ghi ket qua vao out_merge_03.txt
+
+real    0m7.734s
+user    0m1.890s
+sys     0m0.562s
+=== Running std on sequence_03.txt ===
+Da doc 1000000 so tu sequence_03.txt
+Da ghi ket qua vao out_std_03.txt
+
+real    0m8.113s
+user    0m1.923s
+sys     0m0.539s
+=== Running quick on sequence_04.txt ===
+Da doc 1000000 so tu sequence_04.txt
+Da ghi ket qua vao out_quick_04.txt
+
+real    0m4.748s
+user    0m1.274s
+sys     0m0.385s
+=== Running heap on sequence_04.txt ===
+Da doc 1000000 so tu sequence_04.txt
+Da ghi ket qua vao out_heap_04.txt
+
+real    0m10.948s
+user    0m2.235s
+sys     0m0.474s
+=== Running merge on sequence_04.txt ===
+Da doc 1000000 so tu sequence_04.txt
+Da ghi ket qua vao out_merge_04.txt
+
+real    0m6.664s
+user    0m2.044s
+sys     0m0.594s
+=== Running std on sequence_04.txt ===
+Da doc 1000000 so tu sequence_04.txt
+Da ghi ket qua vao out_std_04.txt
+
+real    0m7.318s
+user    0m1.828s
+sys     0m0.520s
+=== Running quick on sequence_05.txt ===
+Da doc 1000000 so tu sequence_05.txt
+Da ghi ket qua vao out_quick_05.txt
+
+real    0m7.302s
+user    0m1.585s
+sys     0m0.475s
+=== Running heap on sequence_05.txt ===
+Da doc 1000000 so tu sequence_05.txt
+Da ghi ket qua vao out_heap_05.txt
+
+real    0m8.170s
+user    0m2.482s
+sys     0m0.543s
+=== Running merge on sequence_05.txt ===
+Da doc 1000000 so tu sequence_05.txt
+Da ghi ket qua vao out_merge_05.txt
+
+real    0m7.091s
+user    0m1.623s
+sys     0m0.445s
+=== Running std on sequence_05.txt ===
+Da doc 1000000 so tu sequence_05.txt
+Da ghi ket qua vao out_std_05.txt
+
+real    0m6.924s
+user    0m1.656s
+sys     0m0.524s
+=== Running quick on sequence_06.txt ===
+Da doc 1000000 so tu sequence_06.txt
+Da ghi ket qua vao out_quick_06.txt
+
+real    0m9.269s
+user    0m1.738s
+sys     0m0.528s
+=== Running heap on sequence_06.txt ===
+Da doc 1000000 so tu sequence_06.txt
+Da ghi ket qua vao out_heap_06.txt
+
+real    0m8.886s
+user    0m2.165s
+sys     0m0.480s
+=== Running merge on sequence_06.txt ===
+Da doc 1000000 so tu sequence_06.txt
+Da ghi ket qua vao out_merge_06.txt
+
+real    0m6.508s
+user    0m1.585s
+sys     0m0.483s
+=== Running std on sequence_06.txt ===
+Da doc 1000000 so tu sequence_06.txt
+Da ghi ket qua vao out_std_06.txt
+
+real    0m9.011s
+user    0m2.068s
+sys     0m0.543s
+=== Running quick on sequence_07.txt ===
+Da doc 1000000 so tu sequence_07.txt
+Da ghi ket qua vao out_quick_07.txt
+
+real    0m5.419s
+user    0m1.595s
+sys     0m0.388s
+=== Running heap on sequence_07.txt ===
+Da doc 1000000 so tu sequence_07.txt
+Da ghi ket qua vao out_heap_07.txt
+
+real    0m6.070s
+user    0m2.106s
+sys     0m0.456s
+=== Running merge on sequence_07.txt ===
+Da doc 1000000 so tu sequence_07.txt
+Da ghi ket qua vao out_merge_07.txt
+
+real    0m5.571s
+user    0m1.870s
+sys     0m0.502s
+=== Running std on sequence_07.txt ===
+Da doc 1000000 so tu sequence_07.txt
+Da ghi ket qua vao out_std_07.txt
+
+real    0m4.277s
+user    0m1.287s
+sys     0m0.331s
+=== Running quick on sequence_08.txt ===
+Da doc 1000000 so tu sequence_08.txt
+Da ghi ket qua vao out_quick_08.txt
+
+real    0m2.853s
+user    0m1.109s
+sys     0m0.250s
+=== Running heap on sequence_08.txt ===
+Da doc 1000000 so tu sequence_08.txt
+Da ghi ket qua vao out_heap_08.txt
+
+real    0m4.047s
+user    0m1.782s
+sys     0m0.393s
+=== Running merge on sequence_08.txt ===
+Da doc 1000000 so tu sequence_08.txt
+Da ghi ket qua vao out_merge_08.txt
+
+real    0m3.734s
+user    0m1.530s
+sys     0m0.401s
+=== Running std on sequence_08.txt ===
+Da doc 1000000 so tu sequence_08.txt
+Da ghi ket qua vao out_std_08.txt
+
+real    0m2.980s
+user    0m1.083s
+sys     0m0.343s
+=== Running quick on sequence_09.txt ===
+Da doc 1000000 so tu sequence_09.txt
+Da ghi ket qua vao out_quick_09.txt
+
+real    0m3.049s
+user    0m1.112s
+sys     0m0.277s
+=== Running heap on sequence_09.txt ===
+Da doc 1000000 so tu sequence_09.txt
+Da ghi ket qua vao out_heap_09.txt
+
+real    0m3.147s
+user    0m1.368s
+sys     0m0.277s
+=== Running merge on sequence_09.txt ===
+Da doc 1000000 so tu sequence_09.txt
+Da ghi ket qua vao out_merge_09.txt
+
+real    0m2.966s
+user    0m1.163s
+sys     0m0.277s
+=== Running std on sequence_09.txt ===
+Da doc 1000000 so tu sequence_09.txt
+Da ghi ket qua vao out_std_09.txt
+
+real    0m3.105s
+user    0m1.069s
+sys     0m0.276s
+=== Running quick on sequence_10.txt ===
+Da doc 1000000 so tu sequence_10.txt
+Da ghi ket qua vao out_quick_10.txt
+
+real    0m3.169s
+user    0m1.163s
+sys     0m0.324s
+=== Running heap on sequence_10.txt ===
+Da doc 1000000 so tu sequence_10.txt
+Da ghi ket qua vao out_heap_10.txt
+
+real    0m8.342s
+user    0m2.142s
+sys     0m0.398s
+=== Running merge on sequence_10.txt ===
+Da doc 1000000 so tu sequence_10.txt
+Da ghi ket qua vao out_merge_10.txt
+
+real    0m7.731s
+user    0m1.840s
+sys     0m0.637s
+=== Running std on sequence_10.txt ===
+Da doc 1000000 so tu sequence_10.txt
+Da ghi ket qua vao out_std_10.txt
+
+real    0m5.740s
+user    0m1.649s
+sys     0m0.395s
