@@ -1,14 +1,14 @@
-┌──(d34th㉿Admin-PC)-[/mnt/d/tools/random_dataset]
+┌──(flong-1207㉿Admin-PC)-[random_dataset]
 └─$ g++ -x c++ -g -O2 -std=gnu++20 -static sort.cpp -o sort
 
-┌──(d34th㉿Admin-PC)-[/mnt/d/tools/random_dataset]
+┌──(flong-1207㉿Admin-PC)-[random_dataset]
 └─$ for i in $(seq -w 1 10); do
-  for alg in quick heap merge std; do
-    echo "=== Running $alg on sequence_${i}.txt ==="
-    time ./sort "$alg" "sequence_${i}.txt" "out_${alg}_${i}.txt"
-    sleep 5
-  done
-done
+      for alg in quick heap merge std; do
+        echo "=== Running $alg on sequence_${i}.txt ==="
+        time ./sort "$alg" "sequence_${i}.txt" "out_${alg}_${i}.txt"
+        sleep 5
+      done
+    done
 === Running quick on sequence_01.txt ===
 Da doc 1000000 so tu sequence_01.txt
 Da ghi ket qua vao out_quick_01.txt
