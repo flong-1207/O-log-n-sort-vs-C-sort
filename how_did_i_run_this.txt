@@ -1,5 +1,5 @@
 ┌──(flong-1207㉿Admin-PC)-[random_dataset]
-└─$ python3 src/number_generator.py
+└─$ python3 number_generator.py
 Đã lưu random_dataset/sequence_01.txt | 1,000,000 số | min=0.0000, max=1.0000
 Đã lưu random_dataset/sequence_02.txt | 1,000,000 số | min=0.0000, max=1.0000
 Đã lưu random_dataset/sequence_03.txt | 1,000,000 số | min=0.0000, max=1.0000
