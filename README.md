@@ -2,7 +2,7 @@
 
 ### I. Kết quả thử nghiệm
 
-#### 1. Bảng thời gian thực hiện
+#### 1. Bảng thời gian thực hiện (số liệu chỉ mang tính minh họa)
 
 | Dữ liệu | QuickSort | Heap sort | Merge sort | sort (C++) |
 |---:|---:|---:|---:|---:|
