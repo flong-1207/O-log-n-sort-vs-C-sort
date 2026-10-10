@@ -1,4 +1,9 @@
 ┌──(flong-1207㉿Admin-PC)-[random_dataset]
+└─$ python3 src/number_generator.py
+
+
+
+┌──(flong-1207㉿Admin-PC)-[random_dataset]
 └─$ g++ -x c++ -g -O2 -std=gnu++20 -static sort.cpp -o sort
 
 ┌──(flong-1207㉿Admin-PC)-[random_dataset]
