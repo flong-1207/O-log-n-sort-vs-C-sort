@@ -1,4 +1,4 @@
-┌──(flong-1207㉿Admin-PC)-[random_dataset]
+┌──(flong-1207㉿Admin-PC)-[O-log-n-sort-vs-C-sort]
 └─$ python3 number_generator.py
 Đã lưu random_dataset/sequence_01.txt | 1,000,000 số | min=0.0000, max=1.0000
 Đã lưu random_dataset/sequence_02.txt | 1,000,000 số | min=0.0000, max=1.0000
@@ -11,10 +11,10 @@
 Đã lưu random_dataset/sequence_09.txt | 1,000,000 số | min=0.0000, max=1.0000
 Đã lưu random_dataset/sequence_10.txt | 1,000,000 số | min=0.0000, max=1.0000
 
-┌──(flong-1207㉿Admin-PC)-[random_dataset]
+┌──(flong-1207㉿Admin-PC)-[O-log-n-sort-vs-C-sort]
 └─$ g++ -x c++ -g -O2 -std=gnu++20 -static sort.cpp -o sort
 
-┌──(flong-1207㉿Admin-PC)-[random_dataset]
+┌──(flong-1207㉿Admin-PC)-[O-log-n-sort-vs-C-sort]
 └─$ for i in $(seq -w 1 10); do
       for alg in quick heap merge std; do
         echo "=== Running $alg on sequence_${i}.txt ==="
