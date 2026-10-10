@@ -1,6 +1,4 @@
-# O-log-n-sort-vs-C-sort
-
-# Báo cáo thử nghiệm các thuật toán sắp xếp
+# O-log-n-sort-vs-C-sort - Báo cáo thử nghiệm các thuật toán sắp xếp
 
 ### I. Kết quả thử nghiệm
 
