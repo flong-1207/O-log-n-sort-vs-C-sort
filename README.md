@@ -22,7 +22,7 @@
 
 #### 2. Biểu đồ (cột) thời gian thực hiện
 
-![Biểu đồ cột thời gian thực hiện](chart.png)
+![Biểu đồ cột thời gian thực hiện](result.jpg)
 
 ### II. Kết luận
 
